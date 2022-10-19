@@ -1,0 +1,43 @@
+.pie{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgb(20,20,20);
+    color: #EFFDF3;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.8rem;
+    text-align: center;
+}
+.menu2{
+    display: flex;
+}
+.menu2__item{
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    
+}
+
+.menu2__item:hover{
+    font-size: 1.3rem;
+    color: #1DE88E;    
+    transition-duration: 0.5s;
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width: 375px){
+    .menu2{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu2{
+        flex-direction: row;
+        gap: 1rem;
+    }
+}

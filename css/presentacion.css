@@ -1,0 +1,69 @@
+.presentacion{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    background: linear-gradient(rgba(20,20,20,1),rgba(255,255,255,0.6)), url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+.presentacion__card__foto{
+    margin: 1rem;
+    border-radius: 10rem;
+    border:10px solid #1DE88E;
+}
+
+.presentacion__card__nombre{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.presentacion__card__ocupacion{
+    font-size: 1.2rem;
+}
+
+.presentacion__redes{
+    width: 300px;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentacion__redes__logo{
+    width: 15%;
+}
+
+.presentacion__redes__logo img{
+    width:100%;
+    vertical-align: middle;
+}
+
+.presentacion__redes__logo img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 375px) {
+    .presentacion{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .presentacion__card__foto{
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion{
+        padding-top:7rem;
+        padding-bottom: 7rem;
+    }
+
+    .presentacion__card__foto{
+        width: 300px;
+    }
+}

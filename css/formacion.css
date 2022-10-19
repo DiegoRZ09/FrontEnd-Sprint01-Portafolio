@@ -1,0 +1,112 @@
+.formacion{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background: #E3F2FF;
+}
+
+.formacion__titulo{
+    margin:1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.formacion-contenedor{
+    display: flex;
+    gap: 1rem;
+}
+
+.formacion__card{
+    padding-top: 3rem;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 2px #00000030;
+    background: #B5D8F4;
+    
+}
+
+.formacion__card__imagen--ipn{
+
+    background: url(../img/ipn.png);
+    background-position: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    height: 200px;
+   
+    
+}
+
+.formacion__card__imagen--udemy{
+    
+    background: url(../img/Udemy_logo.svg.png);
+    background-position: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formacion__card__imagen--one{
+    background: url(../img/one.png);
+    background-position: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.formacion__card__textos{
+    padding: 2rem 1rem;
+    line-height: 1.3;
+}
+
+.formacion__card__texto-primario{
+    font-weight: 700;
+}
+
+.formacion__card__texto-secundario{
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 375px){
+    .formacion-contenedor{
+        flex-direction: column;
+    }
+
+    .formacion__card{
+        width: 100%;
+    }
+
+    .formacion__card__imagen--ipn, .formacion__card__imagen--udemy, .formacion__card__imagen--one{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formacion-contenedor{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .formacion__card{
+        width: calc(50% - 1rem);
+    }
+
+    .formacion__card__imagen--ipn, .formacion__card__imagen--udemy, .formacion__card__imagen--one{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .formacion-contenedor{
+        flex-wrap: nowrap;
+    }
+
+    .formacion__card{
+        width: 25%;
+    }
+
+    .formacion__card__imagen--ipn, .formacion__card__imagen--udemy, .formacion__card__imagen--one{
+        height: 200px;
+    }
+}

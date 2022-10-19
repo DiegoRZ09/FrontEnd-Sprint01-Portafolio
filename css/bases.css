@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.texto-principales{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.texto-parrafos{
+    font-family: 'Manrope',sans-serif;
+}

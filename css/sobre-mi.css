@@ -1,0 +1,154 @@
+.sobre-mi{
+    padding-top: 1rem;
+    background: rgba(51,157,177,0.4);
+}
+
+.sobre-mi__titulo{
+    margin:1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sobre-mi__descripcion{
+    max-width: 600px;
+    line-height: 1.2;
+    margin: 1rem auto;
+    text-align: justify;
+}
+
+.sobre-mi__datos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre-mi__datos__titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.sobre-mi__datos__personales{
+    display: flex;
+    line-height: 1.5;
+    gap:1rem;
+    
+}
+
+.sobre-mi__datos__personales__highlights{
+    font-weight: 700;
+    color: #005164;
+}
+
+.sobre-mi__datos__personales__info p:last-child{
+    background: #1DE88E;
+    font-weight: bold;
+}
+
+.sobre-mi__datos__hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+
+}
+
+
+.sobre-mi__datos__hobbies__card{
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 0.5rem);
+    height: 90px;
+    background: rgba(51,157,177,0.7);
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 2px #00000030;
+    font-weight: 700;
+}
+
+.sobre-mi__hobbies_icono{
+    width:60px;
+    height: 60px;
+}
+
+.sobre-mi__boton-cv{
+    display: block;
+    margin: 2rem auto;
+    width: 70%;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: #004100;
+    background: #1DE88E;
+    box-shadow: 0 2px 4px 2px #00000010;
+    border: none;
+    border-radius: 5px;
+}
+
+.sobre-mi__boton-cv:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+
+    .sobre-mi{
+        padding-bottom: 0;
+    }
+
+    .sobre-mi__datos{
+        flex-direction: column-reverse;
+        padding-bottom: 1rem;
+    }
+
+    .sobre-mi__datos__hobbies{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .sobre-mi__datos__hobbies__card{
+        width: calc(33% - 0.5rem);
+    }
+
+    .sobre-mi__datos__personales{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .sobre-mi__datos__hobbies__card{
+        width: calc(25% - 0.5rem);
+    }
+
+    .sobre-mi__datos__personales{
+        justify-content: center;
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .sobre-mi{
+        padding-bottom: 1rem;
+    }
+
+    .sobre-mi__datos{
+        flex-direction: row;
+        padding: 3rem 0;
+    }
+    
+    .sobre-mi__datos__hobbies{
+        width: 400px;
+        margin-bottom: 0;
+    }
+
+    .sobre-mi__datos__personales{
+        font-size: 1rem;
+    }
+}
+

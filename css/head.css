@@ -1,0 +1,54 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    align-items:center;
+    vertical-align: middle;
+    background: rgb(20,20,20);
+    color: #EFFDF3;
+}
+
+.encabezado__blockname{
+    display: flex;
+    align-items:center;
+    gap: 0.5rem;
+    font-weight: 700;
+}
+
+
+.encabezado__img{
+    width: 1.5rem;
+}
+
+
+
+.menu1__item{
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    
+}
+
+.menu1__item:hover{
+    font-size: 1.3rem;
+    color: #1DE88E;    
+    transition-duration: 0.5s;
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width: 375px) {
+    .menu1{
+        display:none;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menu1{
+        display: flex;
+        align-items: center;
+        width: auto;    
+    }
+    
+}

@@ -1,0 +1,111 @@
+.contacto{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background: #E6F4F1;
+}
+.contacto__titulo{
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contacto__contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.contacto__imagen{
+    background: url(../img/buddy-phone-3.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+}
+
+.contacto__formulario__titulo{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contacto__formulario__campo{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap:0.5rem;
+    background: #f2faff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 2px #00000030;
+    padding: 0.5rem;
+}
+
+.contacto__formulario__campo__recuadro{
+    background: #f2faff;
+    border:none;
+    font-size: 1rem;
+
+}
+
+.contacto__formulario__campo__recuadro:focus{
+    outline: none;
+    border-bottom: 3px solid #004100;
+}
+
+.contacto__formulario__enviar{
+    margin: 2rem auto;
+    /*width: 70%;*/
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #004100;
+    background: #1DE88E;
+    box-shadow: 0 2px 4px 2px #00000010;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto__formulario__enviar:disabled{
+    background: inherit;
+    color: inherit;
+}
+
+.contacto__formulario__enviar:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px){
+    .contacto__imagen{
+        display: none;
+    }
+
+    .contacto__formulario{
+        width: 100%;
+    }
+
+    .contacto__formulario__campo{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contacto__imagen{
+        display: block;
+        width: 40%;
+    }
+
+    .contacto__formulario{
+        width: 50%;
+    }
+
+    .contacto__formulario__campo{
+        margin-top: 0;
+    }
+}
