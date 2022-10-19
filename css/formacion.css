@@ -68,7 +68,7 @@
     font-size: 0.9rem;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 350px){
     .formacion-contenedor{
         flex-direction: column;
     }

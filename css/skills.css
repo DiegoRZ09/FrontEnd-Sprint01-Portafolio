@@ -43,7 +43,7 @@
     margin: 0.5rem auto;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 350px){
 
     .skills__tecnicos, .skills__soft{
         flex-wrap: wrap;

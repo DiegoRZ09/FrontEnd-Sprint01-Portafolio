@@ -28,7 +28,7 @@
     text-decoration-line: underline;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 350px){
     .menu2{
         flex-direction: column;
         gap: 0.5rem;

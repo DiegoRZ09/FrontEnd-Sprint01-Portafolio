@@ -37,7 +37,7 @@
     text-decoration-line: underline;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 350px) {
     .menu1{
         display:none;
     }

@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 350px) {
 
     .sobre-mi{
         padding-bottom: 0;

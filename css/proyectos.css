@@ -72,7 +72,7 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 350px){
     .proyecto{
         flex-direction: column;
     }
